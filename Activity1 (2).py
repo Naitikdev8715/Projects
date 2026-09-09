@@ -1,0 +1,7 @@
+tuple1 = ('naitik', 12, 2.36, True, 44)
+print(len(tuple1))
+print(tuple1[0])
+print(tuple1[1:3])
+print(tuple1[:4])
+tuple1 = tuple1 + (2,)
+print(tuple1)
